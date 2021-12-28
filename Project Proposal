@@ -1,32 +1,31 @@
+The dataset (Space_Corrected.csv from https://www.kaggle.com/agirlcoding/all-space-missions-from-1957) includes all the space missions since the beginning of Space Race (1957). It contains 9 rows and 4323 observations  which are:
+	- #: Column number.
+	- Unnamed: Column number.
+	- Company Name.
+	- Location: Location of the Launch.
+	- Datum: Datum and Time of Launch.
+	- Detail: Rocket Name.
+	- Status Rocket: Status of the rocket.
+	- Rocket: Cost of the mission: in $ million.
+	- Status Mission: Status of the mission whether it is successful or not.
 
-Question/need:
-* What is the framing question of your analysis, or the purpose of the model/system you plan to build?
-How many missions per country and what are the missions status percentage? (successful?/failure?)
+I expected playing around with  'Company Name, Location, and Status Mission', and predicting the next mission status (absolutely wishing for more!) using:
+	-  numpy. 
+	- pandas.
+	- seaborn.
+	- matplotlib.pyplot.
+	- & (open for more others!)
 
-* Who benefits from exploring this question or building this model/system?
+The dataset is useful for people who are interested in knowing more about space discoveries.
 
-Data Description:
-* What dataset(s) do you plan to use, and how will you obtain the data?
-              Space_Corrected.csv from https://www.kaggle.com/agirlcoding/all-space-missions-from-1957
-
-* What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
-            Company Name, Location, and Status Mission.
-* If modeling, what will you predict as your target?
-
-Tools:
-* How do you intend to meet the tools requirement of the project?
-             By using the following:
-		-  numpy. 
-		- pandas.
-		- seaborn.
-		- matplotlib.pyplot.
-		- & open for more others!
-
-* Are you planning in advance to need or use additional tools beyond those required? 
-		Of course. There will be a model.
-
-MVP Goal:
-* What would a minimum viable product (MVP) look like for this project?
-		The goal of this project is to better understand number of launches per country launch the most and the status of overall space missions.
-
-		To start exploring this goal using charts, the bar chart shows that the majority of mission status is 'Successful'. Another bar chart depects that russa is the most country in launching space missions.
+The goal is to have better understanding of the following:
+	- How many missions per country?
+	- Which country has the most space launchings?
+	- Which company has the highest number of launches?
+	- Why some missions cost more than others? 
+	- What year that have the most successful/failure missions?
+	- What are the missions status percentage? (successful?/failure?)
+    
+To start exploring this goal using charts:
+	- The bar chart shows that the majority of mission status is 'Successful'. 
+	- Another bar chart depects that Russa is the most country in launching space missions.
