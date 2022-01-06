@@ -1,3 +1,6 @@
+- Main Question:
+	Is the "next status mission" for a specific company will going to be successful or not?
+
 The dataset (Space_Corrected.csv from https://www.kaggle.com/agirlcoding/all-space-missions-from-1957) includes all the space missions since the beginning of Space Race (1957). It contains 9 rows and 4323 observations  which are:
 	- #: Column number.
 	- Unnamed: Column number.
@@ -17,11 +20,3 @@ I expected playing around with  'Company Name, Location, and Status Mission', an
 	- & (open for more others!)
 
 The dataset is useful for people who are interested in knowing more about space discoveries.
-
-The goal is to have better understanding of the following:
-	- How many missions per country?
-	- Which country has the most space launchings?
-	- Which company has the highest number of launches?
-	- Why some missions cost more than others? 
-	- What year that have the most successful/failure missions?
-	- What are the missions status percentage? (successful?/failure?)
