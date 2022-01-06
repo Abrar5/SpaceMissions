@@ -1,5 +1,5 @@
 - Main Question:
-	Is the "next status mission" for a specific company will going to be successful or not?
+	Is the "next status mission" for a specific company will be successful or not?
 
 The dataset (Space_Corrected.csv from https://www.kaggle.com/agirlcoding/all-space-missions-from-1957) includes all the space missions since the beginning of Space Race (1957). It contains 9 rows and 4323 observations  which are:
 	- #: Column number.
